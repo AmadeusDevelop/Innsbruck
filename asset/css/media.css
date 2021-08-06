@@ -1,0 +1,72 @@
+@media (max-width: 425px) {
+    header .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu-item {
+        font-size: 20px;
+    }
+    header ul {
+        margin-top: 20px;
+    }
+
+    h1 {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .first-screen .container {
+        justify-content: center;
+    }
+
+    .about-box {
+        flex-direction: column;
+    }
+
+    .ad {
+        width: 100%;
+    }
+
+    .ad p {
+        font-size: 5vw;
+    }
+    
+    .gallery-list li {
+        flex-direction: column;
+    }
+
+    .gallery-list img {
+        flex-grow: 1;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .gallery-list h3 {
+        font-size: 5vw;
+        padding: 10px;
+    }
+
+    table {
+        max-width: 40%;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    td, th {
+        /* border: solid #2A3D8F 1px ; */
+        padding: 1px;
+    }
+
+    footer p:first-child {
+        font-weight: 700;
+        font-size: 10px;
+    }
+
+    footer p:last-child {
+        font-size: 10px;
+    }
+
+    h2 {
+        margin-top: 30px;
+    }
+}

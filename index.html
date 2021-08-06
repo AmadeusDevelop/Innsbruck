@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="asset/css/style.css" />
+    <link rel="stylesheet" href="asset/css/media.css">
+    <title>Innsbruck</title>
+  </head>
+
+  <body>
+    <header class="mt-22">
+      <div class="container flex sp-between">
+        <img src="asset/img/logo.svg" alt="Ну тут типа лого :D" class="logo" />
+        <nav class="w-80 flex al-center">
+          <ul class="ls-none flex sp-around f-grow">
+            <li><a class="menu-item" href="#">О городе</a></li>
+            <li><a class="menu-item" href="#">Галерея</a></li>
+            <li><a class="menu-item" href="#">Карта</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="first-screen">
+      <div class="container flex al-center h-100">
+        <h1>Открой для себя Инсбрук</h1>
+      </div>
+    </section>
+
+    <section class="about">
+      <div class="container">
+        <article class="flex f-column">
+          <div>
+            <h2>О городе</h2>
+            <h3>Инсбрук - один из лучших горнолыжных курортов Австрии.</h3>
+            <p class="mt-22">
+              Сам город расположился в долине реки Инн, у самого подножия
+              Восточных Альп. Поэтому, почти невозможно найти место в этом
+              городе, чтобы не было видно гор.
+            </p>
+            <h3>Инсбрук в цифрах:</h3>
+          </div>
+
+          <div class="flex sp-between about-box">
+            <ul class="about-ul">
+              <li class="about-li mt-30">
+                Население: чуть более 130 000 человек
+              </li>
+              <li class="about-li">Часовой пояс: UTC+1 зимой и UTC+2 летом</li>
+              <li class="about-li">
+                Зоны для катания: 9 штук, все связаны между собой транспортным
+                сообщением
+              </li>
+              <li class="about-li">Перепад высот: 860 метов - 3100 метров</li>
+              <li class="about-li">
+                Продолжительность сезона: с 12 месяца (декабрь) по 4 месяц
+                (апрель) включительно
+              </li>
+              <li class="about-li">
+                Возраст посетителей всех зон: с 2 лет и старше, без ограничений.
+              </li>
+            </ul>
+
+            <aside class="ad flex">
+              <p>СОБРАЛСЯ НА ГОРНОЛЫЖНЫЙ КУРОРТ?</p>
+              <p>- НЕЗАБУДЬТЕ КУПИТЬ СНАРЯЖЕНИЕ!</p>
+              <a href="https://SCI-RACER.COM/">SCI-RACER.COM</a>
+            </aside>
+          </div>
+        </article>
+        <article>
+          <h3>Температура по месяцам</h3>
+          <figure class="wether mt-30">
+            <img src="asset/img/wether.PNG" alt="Тут типа погода :D" />
+            <figcaption>
+              Температура воздуха в Инсбруке днём и ночью, °С
+            </figcaption>
+          </figure>
+        </article>
+      </div>
+    </section>
+
+    <section class="gallary container">
+      <h2>Галерея</h2>
+      <p class="mt-22">
+        Впрочем, кроме спусков на лыжах, здесь хватает удивительных мест.
+      </p>
+      <ul class="gallery-list flex f-column">
+        <li class="flex sp-between">
+          <h3 class="flex al-center f-grow j-center">ИМПЕРАТОРСКИЙ ДВОРЕЦ</h3>
+          <img
+            src="asset/img/hofburg.jpg"
+            alt="Ну тут тоже типа должна быть картинка :D, прочини  инет пж"
+          />
+        </li>
+        <li class="flex sp-between revers">
+          <h3 class="flex al-center f-grow j-center">ПАРК ХОФАРТЕН</h3>
+          <img
+            src="asset/img/hofgarten.jpg"
+            alt="Ну тут тоже типа должна быть картинка :D, прочини  инет пж"
+          />
+        </li>
+        <li class="flex sp-between">
+          <h3 class="flex al-center f-grow j-center">ЗАМОК АБРАМ</h3>
+          <img
+            src="asset/img/ambras.jpg"
+            alt="Ну тут тоже типа должна быть картинка :D, прочини  инет пж"
+          />
+        </li>
+      </ul>
+    </section>
+
+    <section class="map container">
+      <h2>Инсбрук на карте</h2>
+      <iframe
+        class="mt-22"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d86607.33547286737!2d11.308750710755097!3d47.28543371381106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479d6ecfe1f8ca73%3A0x9d201c7d281d9b0d!2z0JjQvdC90YHQsdGA0YPQuiwg0JDQstGB0YLRgNC40Y8!5e0!3m2!1sru!2sru!4v1628229886416!5m2!1sru!2sru"
+        width="100%"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+      ></iframe>
+      <p>
+        Благодаря удобного расположению, добравться до сердца Альп не составляет
+        особого труда.
+      </p>
+      <table class="mt-22">
+        <thead>
+          <tr>
+            <th>Вид транспорта</th>
+            <th>Из Москвы</th>
+            <th>Из Вены</th>
+            <th>Из Мюнхина</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Самолет</td>
+            <td>+</td>
+            <td>-</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>Поезд</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+          </tr>
+          <tr>
+            <td>Автомобиль</td>
+            <td>-</td>
+            <td>+</td>
+            <td>+</td>
+          </tr>
+          <tr>
+            <td>Автобус</td>
+            <td>-</td>
+            <td>+</td>
+            <td>+</td>
+          </tr>
+          <tr>
+            <td>Иные способы</td>
+            <td>-</td>
+            <td>Трансфер на заказ</td>
+            <td>Трансфер на заказ</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <footer class="flex mt-30 sp-around">
+      <p>#VISITINNSBRUCK</p>
+      <div class="socials flex sp-between al-center">
+        <a href=""> <img src="asset/img/fb.svg" alt="" /></a>
+        <a href=""> <img src="asset/img/twitter.svg" alt="" /></a>
+        <a href=""><img src="asset/img/youtube.svg" alt="" /></a>
+      </div>
+      <p>© 2021 Hello World</p>
+    </footer>
+  </body>
+</html>
