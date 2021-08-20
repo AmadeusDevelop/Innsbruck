@@ -49,8 +49,7 @@
 
     table {
         max-width: 40%;
-        margin-right: 0px;
-        margin-left: 0px;
+        margin: 22px auto;
     }
     td, th {
         /* border: solid #2A3D8F 1px ; */
